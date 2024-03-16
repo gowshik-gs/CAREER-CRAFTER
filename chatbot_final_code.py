@@ -4,7 +4,6 @@ lemmatizer = WordNetLemmatizer()
 import json
 import pickle
 from keras.models import load_model
-
 import numpy as np
 from keras.models import Sequential
 from keras.layers import Dense, Activation, Dropout
